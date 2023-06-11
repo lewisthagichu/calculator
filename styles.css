@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background: linear-gradient(to right, #F7F9F7, #e3f9ff);
+}
+
+.grid-container {
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.grid-container button {
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(208, 205, 205, 0.75);
+    font-size: 2rem;
+    border: 1px solid white;
+}
+
+.grid-container button:hover {
+    background-color: rgba(208, 205, 205, 0.9);  
+}
+
+.span-three {
+    grid-column: span 3;
+}
+
+.display {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.display .previous-display {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+}
+
+.display .current-display {
+    color: white;
+    font-size: 2rem;
+}
