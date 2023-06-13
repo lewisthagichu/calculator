@@ -12,20 +12,19 @@ html {
 
 body {
     background: #23272F;
-    /* min-height: 100vh; */
+    /* height: 100vh; */
     /* width: 100%; */
-    
+
 }
 
 .box {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-content: center;
 }
 
 .grid-container {
-    /* min-height: 100vh; */
+    min-height: 100vh;
     display: grid;
     align-content: center;
     justify-content: center;
@@ -39,7 +38,7 @@ body {
 
 .grid-container button {
     cursor: pointer;
-    outline: none;    
+    outline: none;
     font-size: 2rem;
     border: none;
     border-radius: 10px;
