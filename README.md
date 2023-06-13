@@ -1,6 +1,8 @@
 # Calculator
 This is a simple calculator application built using HTML, CSS, and JavaScript. It provides basic arithmetic operations such as addition, subtraction, multiplication, division, and modulus.
 
+Live preview: https://lewisthagichu.github.io/calculator/
+
 ## Features
 * Calculator allows users to perform addition, subtraction, multiplication, division, and modulus operations.
 * Users can input numbers using the number buttons.
