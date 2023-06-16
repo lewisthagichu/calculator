@@ -6,25 +6,26 @@
     font-weight: normal;
 }
 
-html {
+/* html {
     position: relative;
-}
+} */
 
 body {
-    background: #23272F;
-    /* height: 100vh; */
-    /* width: 100%; */
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    background: #23272F;    
 }
 
 .box {
     display: flex;
     justify-content: center;
-    align-content: center;
+    border: 1px solid red;
 }
 
 .grid-container {
-    min-height: 100vh;
+    /* min-height: 100svh; */
     display: grid;
     align-content: center;
     justify-content: center;
@@ -94,7 +95,7 @@ body {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
