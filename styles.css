@@ -11,21 +11,21 @@
 } */
 
 body {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100svh;
+    align-items: center; */
+    /* height: 100svh; */
     background: #23272F;    
 }
 
-.box {
-    display: flex;
+/* .box {
+    display: flex; 
     justify-content: center;
     border: 1px solid red;
-}
+} */
 
 .grid-container {
-    /* min-height: 100svh; */
+    min-height: 100svh;
     display: grid;
     align-content: center;
     justify-content: center;
